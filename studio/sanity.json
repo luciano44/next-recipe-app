@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "magenta-oryx"
+    "name": "studio"
   },
   "api": {
     "projectId": "fa39ifzb",
-    "dataset": "ddataset"
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
